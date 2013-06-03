@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Cfvalidate::VERSION
   spec.authors       = ["Daichi Arai"]
   spec.email         = ["daichi2k@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{CloudFormation Validator}
+  spec.summary       = %q{Run cloud formation validate template api}
+  spec.homepage      = "http://github.com/darai2k/cfvalidate"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "aws-sdk", "~> 1.0"
+  spec.add_runtime_dependency "aws-sdk", "~> 1.0"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end

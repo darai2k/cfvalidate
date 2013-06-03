@@ -1,12 +1,12 @@
 # Cfvalidate
 
-TODO: Write a gem description
+Run cloud formation validate template api
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'cfvalidate'
+    gem 'cfvalidate', github: 'darai2k/cfvalidate'
 
 And then execute:
 
@@ -14,11 +14,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install cfvalidate
+    $ git clone git://github.com/darai2k/cfvalidate.git
+    $ cd cfvalidate
+    $ rake install
 
 ## Usage
 
-TODO: Write usage instructions here
+Use Command Line:
+
+    $ cfvalidate [File path]
 
 ## Contributing
 
